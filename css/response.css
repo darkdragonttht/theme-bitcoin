@@ -1,0 +1,403 @@
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    header .box-header .logo {
+        overflow: hidden;
+        padding: 5px 0;
+    }
+
+    header .box-header .logo a img {
+        width: 100%;
+        height: 100%;
+        object-position: center center;
+        object-fit: cover;
+    }
+
+    header .box-header .menu-top ul li {
+        padding: 0 15px;
+    }
+
+    .box-cate-news-bitcoin .box-single-cate-news-bitcoin {
+        width: calc((100% - 30px) / 3);
+        margin-right: 15px;
+    }
+
+    .box-news-other .single-box-news-other {
+        width: calc((100% - 45px) / 4);
+        margin-right: 15px;
+    }
+
+    footer {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    .small {
+        width: 100%;
+    }
+
+    .medium {
+        width: 100%;
+    }
+
+    header .box-header .menu-top {
+        display: none;
+    }
+
+    header .box-header .box-search {
+        display: none;
+    }
+
+    .box-top-news-content-left .header-top-news h3 span.border-first {
+        display: none;
+    }
+
+    .box-top-news-content-left {
+        width: 100%;
+    }
+
+    .box-editor-choices-content-right {
+        display: none;
+    }
+
+    footer {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .box-site ul {
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    footer .box-content-footer .box-head-footer {
+        padding: 35px 15px;
+    }
+
+    .box-head-footer .box-site .box-title-cate-footer h4 {
+        text-align: center;
+    }
+
+    .box-head-footer .box-site p {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    footer .box-bottom-footer p.web-footer {
+        display: none;
+    }
+
+    footer .box-bottom-footer p.mobi-footer {
+        display: block;
+    }
+
+    .box-site.medium.fl.h100.p-l-30 {
+        padding: 0;
+        text-align: center;
+    }
+
+    .box-site.small.fl.h100 {
+        padding: 0 !important;
+        text-align: center;
+    }
+
+    .box-cate-news-bitcoin .box-single-cate-news-bitcoin {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .box-top-news-content-left .header-top-news h3 {
+        padding: 0 15px;
+    }
+
+    .box-top-news-content-left ul {
+        display: none;
+    }
+
+    .box-top-news-content-left .box-list-top-news-old {
+        display: none;
+    }
+
+    .banner-qc {
+        display: none;
+    }
+
+    .box-news-other .single-box-news-other {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    .list-top-news-mobi {
+        display: block;
+    }
+
+    header {
+        height: 48px;
+    }
+
+    header .box-header .logo a img {
+        width: 48%;
+        padding-left: 10px;
+    }
+
+    .top-news-content {
+        margin-top: 48px;
+    }
+
+    header .box-header .box-click-menu-mobi {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .small {
+        width: 100%;
+    }
+
+    .medium {
+        width: 100%;
+    }
+
+    header .box-header .menu-top {
+        display: none;
+    }
+
+    header .box-header .box-search {
+        display: none;
+    }
+
+    footer .box-content-footer .box-head-footer {
+        padding: 15px;
+    }
+
+    .box-top-news-content-left .header-top-news h3 span.border-first {
+        display: none;
+    }
+
+    .box-top-news-content-left {
+        width: 100%;
+    }
+
+    .box-editor-choices-content-right {
+        display: none;
+    }
+
+    footer {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .box-site ul {
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .box-head-footer .box-site .box-title-cate-footer {
+        height: auto;
+    }
+
+    .box-head-footer .box-site .box-title-cate-footer h4 {
+        text-align: center;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .box-head-footer .box-site p {
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 11px;
+        line-height: 26px;
+        margin-top: 0;
+    }
+
+    .box-head-footer .box-site strong {
+        font-size: 11px;
+    }
+
+    .box-site.medium.fl.h100.p-l-30 {
+        padding: 0;
+        text-align: center;
+    }
+
+    footer .box-bottom-footer p.web-footer {
+        display: none;
+    }
+
+    footer .box-bottom-footer p.mobi-footer {
+        display: block;
+    }
+
+    .box-site.small.fl.h100 {
+        padding: 0 !important;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .box-head-footer .box-site ul li .box-social {
+        width: 35px;
+        height: 35px;
+    }
+
+    .box-head-footer .box-site ul li .box-social a i {
+        font-size: 16px;
+    }
+
+    .box-cate-news-bitcoin .box-single-cate-news-bitcoin {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .box-top-news-content-left .header-top-news h3 {
+        padding: 0 10px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .box-top-news-content-left ul {
+        display: none;
+    }
+
+    .box-top-news-content-left .box-list-top-news-old {
+        display: none;
+    }
+
+    .banner-qc {
+        display: none;
+    }
+
+    .box-news-other .single-box-news-other {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    .list-top-news-mobi {
+        display: block;
+    }
+
+    header {
+        height: 48px;
+    }
+
+    header .box-header .logo a img {
+        width: 48%;
+        padding-left: 10px;
+    }
+
+    .top-news-content {
+        margin-top: 48px;
+    }
+
+    header .box-header .box-click-menu-mobi {
+        display: block;
+    }
+
+    .box-list-news .box-single-list-news .box-image-single-page-news {
+        position: relative;
+        width: 40%;
+        float: left;
+        height: auto;
+    }
+
+    .box-list-news .box-single-list-news .box-image-single-page-news:before {
+        content: "";
+        display: block;
+        padding-top: 75%;
+    }
+
+    .box-list-news .box-single-list-news .box-image-single-page-news .single-box-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        overflow: hidden;
+    }
+
+    .box-list-news .box-single-list-news .box-title-list-page-news {
+        float: left;
+        width: 60%;
+        padding: 0 10px;
+    }
+
+    .box-list-news .box-single-list-news .box-title-list-page-news h4 a {
+        color: #5bb1e3;
+        font-weight: 700;
+        vertical-align: text-top;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .box-list-news .box-single-list-news .box-title-list-page-news p.description {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .box-top-news-content-left .header-top-news {
+        height: 35px;
+    }
+
+    .box-head-footer .box-site p a {
+        font-size: 11px;
+    }
+
+    .header-top-news .social-network-detail-blog .box-single-social {
+        width: 25px;
+        height: 25px;
+    }
+
+    .header-top-news .social-network-detail-blog .box-single-social i {
+        font-size: 12px;
+    }
+
+    .header-top-news .social-network-detail-blog {
+        padding-right: 10px;
+    }
+
+    .box-top-news-content-left .header-top-news .time-detail-blog {
+        padding-left: 10px;
+    }
+
+    .box-top-news-content-left .content-detal-blog h1 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .box-top-news-content-left .content-detal-blog .content-blog p {
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .content-detal-blog .box-custom-post-blog .box-single-post-blog {
+        width: calc((100% - 10px) / 2);
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .content-detal-blog .box-custom-post-blog .box-single-post-blog:nth-child(3n + 3) {
+        margin-right: 10px;
+    }
+
+    .content-detal-blog .box-custom-post-blog .box-single-post-blog:nth-child(2n + 2) {
+        margin-right: 0;
+    }
+
+    .content-detal-blog .box-custom-post-blog .box-single-post-blog a .box-title-custom-post-blog .box-title-custom-blog span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
